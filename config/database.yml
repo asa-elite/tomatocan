@@ -7,13 +7,12 @@ development:
   <<: *default
   encoding: unicode
   database: dev_DB
-  username: asahel
-
+  username: postgres
 test:
   <<: *default
   encoding: unicode
   database: test_DB
-  username: asahel
+  username: postgres
 
 production:
   <<: *default
