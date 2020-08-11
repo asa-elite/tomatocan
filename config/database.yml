@@ -6,14 +6,14 @@ default: &default
 development:
   <<: *default
   encoding: unicode
-  database: YOUR_DEVELOPMENT_DATABASE_NAME
-  username: YOUR_USERNAME
+  database: dev_DB
+  username: asahel
 
 test:
   <<: *default
   encoding: unicode
-  database: YOUR_TEST_DATABASE_NAME
-  username: YOUR_USERNAME
+  database: test_DB
+  username: asahel
 
 production:
   <<: *default
