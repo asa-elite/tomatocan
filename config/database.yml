@@ -6,12 +6,12 @@ default: &default
 development:
   <<: *default
   encoding: unicode
-  database: dev_DB
+  database: dev_db
   username: postgres
 test:
   <<: *default
   encoding: unicode
-  database: test_DB
+  database: test_db
   username: postgres
 
 production:
